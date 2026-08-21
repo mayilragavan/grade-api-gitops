@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/mayilragavan/my_ci_cd_lab:a038708083b448a6443286e65055105d238b08fb
+        image: ghcr.io/mayilragavan/my_ci_cd_lab:9f7dd46baa5547c5ae465c921bcbce214e415be5
         ports:
         - containerPort: 3000
         resources:
